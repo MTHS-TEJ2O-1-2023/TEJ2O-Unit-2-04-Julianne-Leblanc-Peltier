@@ -11,7 +11,7 @@ basic.clearScreen()
 basic.pause(1000)
 
 input.onButtonPressed(Button.A, function () {
-    temperature = input.temperature()
-    basic.showString("The temperature is" + temperature)
-    basic.showString("C.")
+  temperature = input.temperature()
+  basic.showString('The temperature is' + (temperature).toString())
+  basic.showString('C.')
 })
